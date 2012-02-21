@@ -1,0 +1,98 @@
+[Root]
+Most Recent Package=XGalaxy
+
+
+[Package|XGalaxy|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Temp\XGalaxy
+
+[Package|XGalaxy|Configure DAO ISAMs]
+Applicable=No
+
+[Package|XGalaxy|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|XGalaxy|Files Found]
+
+[Package|XGalaxy|Files Released]
+
+[Package|XGalaxy|Missing Dependency Information]
+
+[Package|XGalaxy|Out-of-Date Dependency Information]
+
+[Package|XGalaxy|Files Added]
+
+[Package|XGalaxy|Files Removed]
+
+[Package|XGalaxy|Files In Project]
+C:\TEMP\XGalaxy.exe=Yes
+C:\Windows\SYSTEM\MSVBVM60.DLL=Yes
+C:\Windows\SYSTEM\OLEAUT32.DLL=Yes
+C:\Windows\SYSTEM\OLEPRO32.DLL=Yes
+C:\Windows\SYSTEM\ASYCFILT.DLL=Yes
+C:\Windows\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\SYSTEM\VB6CHS.DLL=Yes
+C:\Windows\SYSTEM\MSCOMCTL.OCX=Yes
+C:\Windows\SYSTEM\MSCMCCHS.DLL=Yes
+C:\Windows\SYSTEM\COMDLG32.OCX=Yes
+C:\Windows\SYSTEM\CMDLGCHS.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|XGalaxy|Configure Registry Files]
+Applicable=No
+
+[Package|XGalaxy|Configure Remote Servers]
+Applicable=No
+
+[Package|XGalaxy|Install Locations]
+C:\TEMP\XGalaxy.exe=$(AppPath)
+C:\Windows\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Windows\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Windows\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Windows\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Windows\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\SYSTEM\VB6CHS.DLL=$(WinSysPath)
+C:\Windows\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\Windows\SYSTEM\MSCMCCHS.DLL=$(WinSysPath)
+C:\Windows\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\Windows\SYSTEM\CMDLGCHS.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|XGalaxy|Configure Shared Files]
+Applicable=Yes
+C:\TEMP\XGalaxy.exe=No
+
+[Package|XGalaxy|Distribution]
+Type=single
+Size=1.44 MB
+Title=X 星系
+
+[Package|XGalaxy|IconGroups]
+Group0=X 星系
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|XGalaxy|X 星系]
+Icon1=XGalaxy.exe
+Title1=X 星系
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|XGalaxy|Package]
+PackageFolder=C:\Temp\XGalaxy
+ProjectFolder=C:\User\VB\XGalaxy
+ServerSideCab=
+File1=C:\Temp\XGalaxy\setup.exe
+File2=C:\Temp\XGalaxy\Setup.Lst
+File3=C:\Temp\XGalaxy\XGalaxy.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

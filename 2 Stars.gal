@@ -1,0 +1,49 @@
+; ********************************************************************
+; *                                                                  *
+; *           X 星系   版权所有(C)   王纯   2000年05月16日           *
+; *                                                                  *
+; *    EMAIL: wcwcwwc@263.net   HOMEPAGE: http://wcwcwwc.yeah.net    *
+; *                                                                  *
+; ********************************************************************
+
+XGalaxy 1.0
+Begin
+	Run = False
+	Break = False
+        DateTime = 36526
+	Interval = 1
+	Lock = -1
+	Zoom = 15
+	OffsetX = 0
+	OffsetY = 0
+	Object = 主星
+	Begin
+		X = 0
+		Y = 0
+		VX = 0
+		VY = -0.5
+		Mass = 10000000000000
+		Radius = 20
+		FillColor = 00FFFF
+	End
+	Object = 伴星
+	Begin
+		X = 200
+		Y = 0
+		VX = 0
+		VY = 1.25
+		Mass = 4000000000000
+		Radius = 10
+		FillColor = 00FFFF
+	End
+	Object = 行星
+	Begin
+		X = 160
+		Y = 0
+		VX = 0
+		VY = 4
+		Mass = 1
+		Radius = 5
+		FillColor = FFFFFF
+	End
+End
